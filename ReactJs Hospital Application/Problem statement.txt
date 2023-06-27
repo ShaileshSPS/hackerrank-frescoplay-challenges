@@ -1,0 +1,15 @@
+ReactJS - Hospital Application
+In this application, you will do the following :
+
+Create a signup page to register the user.
+Create a sign-in page to login to the application if the credentials are correct.
+Create components to Register, Edit, and View patient details.
+Create components to Book, Edit, and View the appointments.
+Create a Navbar.
+
+
+
+
+npm install
+npm start
+npm test

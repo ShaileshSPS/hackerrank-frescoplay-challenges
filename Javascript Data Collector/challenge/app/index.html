@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Data Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <form id="formvalue" onsubmit="return onFormSubmit(event)">
+        <h2 id="title">Data Collector</h2>
+        <label for="fname" id="firstname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your first name.."
+        />
+
+        <label for="lname" id="lastname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+
+        <label for="location" id="officelocation">Office Location</label>
+        <input
+          type="text"
+          id="location"
+          name="lastname"
+          placeholder="Your office location"
+        />
+
+        <input id="btn" type="submit" value="Submit" />
+      </form>
+      <br /><br />
+      <table class="list" id="employeeList">
+        <thead>
+          <tr>
+            <th id="h1">First Name</th>
+            <th id="h2">Last Name</th>
+            <th id="h3">Location</th>
+          </tr>
+        </thead>
+        <tbody id="tabledata"></tbody>
+      </table>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
