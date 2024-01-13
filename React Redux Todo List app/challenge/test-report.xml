@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="C:\Users\Shail\OneDrive\Desktop\TCS\fresco play\React Redux Todo List app\challenge\src\reducers\todos.spec.js" errors="0" package="C:\Users\Shail\OneDrive\Desktop\TCS\fresco play\React Redux Todo List app\challenge\src\reducers\todos.spec.js" hostname="localhost" tests="3" failures="0" time="1.661" timestamp="2024-01-12T12:54:48">
+    <properties>
+    </properties>
+    <testcase classname="todos reducer" name="should handle initial state" time="0">
+    </testcase>
+    <testcase classname="todos reducer" name="should handle ADD_TODO" time="0">
+    </testcase>
+    <testcase classname="todos reducer" name="should handle TOGGLE_TODO" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="1" name="C:\Users\Shail\OneDrive\Desktop\TCS\fresco play\React Redux Todo List app\challenge\src\actions\index.spec.js" errors="0" package="C:\Users\Shail\OneDrive\Desktop\TCS\fresco play\React Redux Todo List app\challenge\src\actions\index.spec.js" hostname="localhost" tests="3" failures="0" time="0.088" timestamp="2024-01-12T12:54:49">
+    <properties>
+    </properties>
+    <testcase classname="todo actions" name="addTodo should create ADD_TODO action" time="0">
+    </testcase>
+    <testcase classname="todo actions" name="setVisibilityFilter should create SET_VISIBILITY_FILTER action" time="0">
+    </testcase>
+    <testcase classname="todo actions" name="toggleTodo should create TOGGLE_TODO action" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>
